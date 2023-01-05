@@ -5,7 +5,7 @@
         <!--bootstrap JS-->
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
         <link rel="stylesheet" href="FirstPage.css">
-        <title> World Cup Project </title>
+        <title> About the World Cup </title>
         <style>
           .center {
             margin: auto;
@@ -16,21 +16,21 @@
     </head>
 
         <body>
-           
+            <!--This is the nav bar section-->
           <ul>
             <li><a href=" index.html">Home</a></li>
             <li><a href="SecondPageWC.html"> Records </a></li>
-            <li><a href="ThirdPageWC.html">Page #3</a></li>
+            <li><a href="ThirdPageWC.html">World Cup Winners</a></li>
             
           </ul> 
 
-            <div style="color:rgb(244, 240, 9); 
+            <h1 style="color:rgb(244, 240, 9); 
                         font-size:50px;
                         padding-left:10px;
                         text-align: center;
                         border:5px solid rgb(70, 180, 89);"> 
                 About The World Cup 
-            </div>
+        </h1>
           
             <br>
 
@@ -42,32 +42,36 @@
                         <img style="border-radius:10%" 
                         src="WorldCup.jpg" alt=" Ronaldo" width="80%"/>
                         <p style="color:rgb(244, 240, 9);">This file is licensed under the Creative Commons Attribution-Share Alike 2.0 Generic license.</p>
+                       
                         Press <a style="color:rgb(238, 20, 64);" href= "https://commons.wikimedia.org/wiki/File:FIFA_World_Cup_Trophy.jpg">
                           here</a> to go to the image license page</p> 
                 </div>
+    
+             <style>
+              .Style {
+                  width:80%;
+                  border-radius:25px;
+                  padding:20px;
+                  font-size:25px;
+                  background-color: rgb(21, 245, 47);
+                  }
+                  </style> 
+
+               <div class = "Style">
                 <script>
                 function trial () {
-                  const string = " يشرف الاتحاد الدولي لكرة القدم (الفيفا) على الدورة الرباعية مسابقة 32 فريقًا وطنيًا للرجال تُعرف باسم كرة القدم. يختار ملف  بطل العالم الذكور في الانضباط. تلعب كل مجموعة بطولة ذهابًا وإيابًا ، في والتي من المقرر أن يخوض كل فريق ثلاث مباريات ضد فرق أخرى في نفس المجموعة. هذا يعني أنه يتم لعب ما مجموعه ست مباريات داخل مجموعة. الجولة الأخيرة من المباريات من كل مجموعة في نفس الوقت للحفاظ على العدالة بين الفرق الأربعة."
-
-
-                  return string;
+                const string = " يشرف الاتحاد الدولي لكرة القدم (الفيفا) على الدورة الرباعية مسابقة 32 فريقًا وطنيًا للرجال تُعرف باسم كرة القدم. يختار ملف  بطل العالم الذكور في الانضباط. تلعب كل مجموعة بطولة ذهابًا وإيابًا ، في والتي من المقرر أن يخوض كل فريق ثلاث مباريات ضد فرق أخرى في نفس المجموعة. هذا يعني أنه يتم لعب ما مجموعه ست مباريات داخل مجموعة. الجولة الأخيرة من المباريات من كل مجموعة في نفس الوقت للحفاظ على العدالة بين الفرق الأربعة."
+                return string;
                 }
-                
-                
+
                 function arabic(){
                 var work = trial();
                 
                 document.getElementById("chair").innerHTML= work;
                 }
                  </script>
-                
-                <html>
-                <body>
-                
-                
 
-
-                <p>  <a href="#" onclick="arabic();";> Translate (Arabic) ترجمة (عربي) </a> </p>
+                <p>  <a href="#" onclick="arabic();";> Translate to Arabic ترجمة (عربي) </a> </p>
                 <div id = "chair" style="width:80%;
                             border-radius:25px;
                             padding:20px;
@@ -93,29 +97,6 @@
             <button onclick="document.getElementById('myImage').src='after.png'">After</button>
           </div>
 
-
-<script>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-      </body>
+    </body>
 </html>
+
