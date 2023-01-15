@@ -46,66 +46,36 @@
   </ul>
 
 
-
-
-          
-          <h1 style="color:rgb(255, 255, 255); 
+  <h1 style="color:rgb(48, 170, 197); 
           font-size:50px;
           padding-left:10px;
           text-align: center;
-          border:5px solid rgb(255, 255, 255);"> 
-          World Cup Winners
-        </h1>
-        
+          border:5px solid rgb(207, 242, 9);">
+    World Cup Winners
+  </h1>
 
-      </div>
-      <script>
-      function trial () {
-        const string = "كان هناك العديد من الفائزين بكأس العالم منذ بداية كأس العالم في عام 1930. تُقدر كأس العالم بأنها أصعب وأهم الكأس التي يمكن أن يحصل عليها فريق دولي. تضمنت هذه الصفحة الفائزين الخمسة السابقين بكأس العالم والنتيجة في النهائي"
+  <div style="border-radius:32px;
+                            padding:30px;
+                            font-size:30px;
+                            background-color: rgb(9, 185, 225);
+                            color:white;
+                            text-align: center">
+    There have been many world cup winners since the beginning of the world cup in 1930.
+    The world cup is valued as the most difficult and important trophy for an international
+    team to obtain. This page has included the past 3 winners of the world cup and a picture of them
+    in the finals.
+  </div>
+  <br>
+  <h4 for="Winners">What was your favorite final?</h4>
+  <select name="goals" id="goals" onchange="yearChanged()">
+    <option value="2014">2014</option>
+    <option value="2018">2018</option>
+    <option value="2022">2022</option>
+  </select>
+  <br>
 
-        return string;
-      }
-      
-      
-      function arabic(){
-      var work = trial();
-      
-      document.getElementById("chair").innerHTML= work;
-      }
-       </script>
-      
-      <html>
-      <body>
-      
-      
-
-
-      <p>  <a href="#" onclick="arabic();";> Translate (Arabic) ترجمة (عربي) </a> </p>
-      <div id = "chair" style="width:80%;
-                  border-radius:25px;
-                  padding:20px;
-                  font-size:25px;
-                  background-color: rgb(255, 255, 255);">
-         There have been many world cup winners since the beginning of the world cup in 1930. The world cup is valued as the most difficult and important trophy for an international team to obtain. This page has included the past 5 winners of the world cup and the score in the finals.
-      </div>
-
-
-
-
-       
-          <br>
-          <label for="Winners">What was your favorite final</label>
-          <select name="goals" id="goals">
-            <option value="Italy win their fourth winning France on penalties 5-3">2006</option>
-            <option value="Spain win their first against the Netherlands 1-0">2010</option>
-            <option value="Germany beat Argentina 1-0">2014</option>
-            <option value="France win their second against Croatia 4-2">2018</option>
-            <option value="Argentina beat France on penalties 4-2">2022</option>
-          </select>
-          <br>
-
-          <a href="https://www.fifa.com/">
-            <img class="IMGLINK" style="display:block;
+  <a href="https://www.fifa.com/">
+    <img class="IMGLINK" style="display:block;
                         margin-left:auto;
                         margin-right:auto;
                         border-radius:10%" src="Winners.jpg" alt=" Ronaldo" width="800" id="winnerPicture" /> </a>
