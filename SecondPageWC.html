@@ -1,0 +1,129 @@
+<html> 
+    <head> 
+        <!--bootstrap CSS-->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+        <!--bootstrap JS-->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+        <link rel="stylesheet" href="SecondPage.css">
+        <title> World Cup Records </title>
+    </head>
+
+        <body>
+           
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="SecondPageWC.html">Records Page</a></li>
+                <li><a href="ThirdPageWC.html">World Cup Winners</a></li>   
+              </ul> 
+
+            <div style="color:rgb(255, 255, 255); 
+                        font-size:50px;
+                        padding-left:10px;
+                        text-align: center"> 
+                World Cup Records 
+            </div>
+         
+          <script>
+          function trial () {
+            const string = " هناك العديد من الأرقام القياسية التي يحتفظ بها اللاعبون في هذه اللحظة لكأس العالم. لقد اخترت ثلاثة سجلات ستتضمن البطاقات أدناه المعلومات التالية ؛ من لديه أكبر عدد من الأهداف في كأس العالم ، والذي لديه أكبر عدد من التمريرات الحاسمة في كأس العالم ، والذي فاز بأكبر عدد من كؤوس العالم على الإطلاق."
+            return string;
+          }
+           
+          function arabic(){
+          var work = trial();
+          
+          document.getElementById("chair").innerHTML= work;
+          }
+          </script>
+          <div style = "text-align: center;">
+            <a href="#" onclick="arabic();";> Translate (Arabic) ترجمة (عربي) </a> 
+         <div style = " text-align: center;">
+         <div id = "chair" style="width:80%;
+                      border-radius:25px;
+                      padding:20px;
+                      font-size:25px;
+                      background-color: rgb(189, 7, 7);
+                      text-align: center">
+            There are many records being held by players at this moment for the world cup. I have chosen three records
+            the cards below will include the following information; who has the most goals in the world cup, who has the
+            most assists in the world cup, and who won the most world cups ever individually.
+          </div>
+        </div>
+        </div>
+        
+        
+
+            <br>
+            <br>
+
+              <!--This is the card section/layout -->
+        
+                <div class="row">
+                  <div class="col-sm-4">
+                      <div class="card" >
+                          <img src="Klose.jpg" alt="Goal Record" style="height:10%"/> 
+                          <div class="card-body">
+                            <h3 class="card-title">Who has the most goals in the World Cup?</h3>
+                              <br>
+                            <p class="card-text">Miroslav Josef Klose is the head coach of the Austrian Bundesliga 
+                              club Rheindorf Altach and a former footballer from Germany. Klose, a striker, is Germany's
+                               all-time leading scorer and holds the record for the most goals scored in FIFA World Cups 
+                               (16) spanning four tournaments.
+                              <br>
+                              <br>
+                              <br>
+                          This file is licensed under the Creative Commons Attribution-Share Alike 3.0 Unported license.
+                              <br>
+                              Press <a href="https://commons.wikimedia.org/wiki/File:Miroslav_Klose_Portrait.JPG">here</a> to go to the license page for the image above. 
+                      </p>
+                          </div>
+                      </div>
+                  </div>
+  
+                  <div class="col-sm-4">
+                      <div class="card" >
+                          <img src="Messi.jpg" alt="Assist Record"/>
+                          <div class="card-body">
+                            <h3 class="card-title">Who has the most assists at the World Cup?</h3>  
+                              <br>
+                            <p class="card-text">Lionel Andrés Messi, also known as Leo Messi, is an Argentine professional 
+                              footballer who plays as a forward for Ligue 1 club Paris Saint-Germain and captains the Argentina 
+                              national team. Lionel Messi became the player with the most assists on record in World Cup knockout 
+                              matches on Friday, surpassing Pele when he teed up Nahuel Molina's goal against
+                               the Netherlands.
+                              <br>
+                              <br>
+                              This file is licensed under the Creative Commons Attribution 2.0 Generic license.	
+                              <br>
+                              Press <a href="https://commons.wikimedia.org/wiki/File:Lionel_Messi_Barca_training.jpg">here</a> to go to the license page for the image above. 
+                          </p>
+                          </div>
+                      </div>
+                  </div>
+
+                  <div class="col-sm-4">
+                      <div class="card" >
+                          <img src="Pele.jpg" alt="Trohpy Record"/>
+                          <div class="card-body">
+                            <h3 class="card-title">Who has won the most World Cup trophies?</h3>  
+                              <br>
+                            <p class="card-text">Edson Arantes do Nascimento, known as Pelé, is a Brazilian former professional 
+                              footballer who played as a forward. Brazil's Pelé is the only one to have won three times, while 
+                              another 20 have won twice. No player has won two World Cups both as captain.
+                              <br>
+                              <br>
+                              <br>
+                              <br>
+                              <br>
+                              This file is licensed under the Creative Commons Attribution 2.0 Generic license.
+                              <br>
+                              Press <a href="https://commons.wikimedia.org/wiki/File:Pel%C3%A9_vs_swedish_defenders_1958.jpg">here</a> to go to the license page for the image above.</p>
+                          </div>
+                      </div>
+                  </div>>
+              </div>
+
+              <!--End of the card section/layout -->
+
+        </body>
+</html>
